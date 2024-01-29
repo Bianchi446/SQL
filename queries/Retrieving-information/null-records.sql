@@ -1,1 +1,1 @@
-SELECT * from emp where comm is  null;
+SELECT * FROM emp WHERE comm IS NULL;

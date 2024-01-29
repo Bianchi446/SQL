@@ -1,2 +1,1 @@
-select coalesce(comm, 0)
-from emp;
+SELECT coalesce(comm, 0) FROM emp;

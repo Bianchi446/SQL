@@ -1,3 +1,13 @@
-select * from emp limit 5; 
+
+/*PostgreSQL & Mysql*/
+SELECT * FROM emp LIMIT 30;
+
+/*ORACLE*/
+
+SELECT * FROM emp WHERE ROWNUM <= 5;
+
+/* DB2 */
+
+SELECT * FROM emp FETCH FIRST 5 ROWS ONLY; 
 
 

@@ -1,8 +1,6 @@
-select ename, sal,
-	case when sal <= 2000 then 'underpaid'
-		when sal <= 4000 then 'overpaid'
-		else 'OK'
-	end as status
-from emp;
-
-
+SELECT ename, sal,
+	CASE WHEN sal <= 2000 then 'Underpaid'
+	 	WHEN sal >= 2000 then 'Overpaid'
+		ELSE 'OK'
+	END AS STATUS
+FROM emp;
